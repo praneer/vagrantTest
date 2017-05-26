@@ -1,0 +1,5 @@
+---
+- hosts: all  
+  tasks: 
+  - name: install python
+    raw: sudo apt-get install python2.7
