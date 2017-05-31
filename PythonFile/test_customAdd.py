@@ -12,7 +12,7 @@ class TestUM(unittest.TestCase):
     def test_strings_a_3(self):
         self.assertEqual( MyAdd.doAdd(3, 3), 6)
 		
-	def test_addTwo(self):
+    def test_addTwo(self):
         self.assertEqual( MyAdd.doAdd(3, 3), 7)
  
 if __name__ == '__main__':
