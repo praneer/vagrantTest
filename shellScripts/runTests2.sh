@@ -1,4 +1,3 @@
-#!/bin/bash
+#!/bin/sh
 
-echo whoami
 python /vagrant/PythonFile/test_customAdd.py
