@@ -10,10 +10,7 @@ class TestUM(unittest.TestCase):
 		self.assertEqual( MyAdd.doAdd(3, 4), 7)
  
     def test_strings_a_3(self):
-        self.assertEqual( MyAdd.doAdd(3, 3), 6)
-		
-    def test_addTwo(self):
-        self.assertEqual( MyAdd.doAdd(3, 3), 7)
+        self.assertEqual( MyAdd.doAdd(3, 3), 6)	
  
 if __name__ == '__main__':
     unittest.main()
